@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="SELENIUM.ExtentReports.Listener"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="Hybrid Framework">
+
+        <classes>
+            <class name="SELENIUM.Tests.PurchaseProductTests"></class>
+
+        </classes>
+    </test>
+</suite>
