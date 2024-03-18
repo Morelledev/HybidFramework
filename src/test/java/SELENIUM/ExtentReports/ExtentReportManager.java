@@ -9,7 +9,7 @@ import java.io.File;
 import java.io.IOException;
 
 public class ExtentReportManager {
-    static final String Report_Dir = "./Reports/Sauce Demo Assessment Report.html";
+    static final String Report_Dir = "./SeleniumReports/Sauce Demo Assessment Report.html";
     private static ExtentReports extentReports;
     private static ExtentSparkReporter extentSparkReporter;
 private ExtentReportManager() {
