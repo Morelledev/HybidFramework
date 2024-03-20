@@ -32,6 +32,6 @@ build/
 Screenshots/
 ### VS Code ###
 .vscode/
-
+allure-results/
 ### Mac OS ###
 .DS_Store
