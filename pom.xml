@@ -106,7 +106,11 @@
             <version>9.1.0</version>
         </dependency>
 
-
+        <dependency>
+            <groupId>com.github.javafaker</groupId>
+            <artifactId>javafaker</artifactId>
+            <version>1.0.2</version> <!-- Use the latest version available -->
+        </dependency>
     </dependencies>
 
 
@@ -120,9 +124,21 @@
                     <suiteXmlFiles>
                         <suiteXmlFile>testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
+<!--                    <includes>-->
+<!--&lt;!&ndash;                        <include>runners.TestNGRunner</include>&ndash;&gt;-->
+<!--&lt;!&ndash;                        <include>API.Tests.MasterFees</include>&ndash;&gt;-->
+<!--&lt;!&ndash;                        <include>API.Tests.FeeScheduleTemplate</include>&ndash;&gt;-->
+<!--&lt;!&ndash;                        <include>API.Tests.GroupStructure</include>&ndash;&gt;-->
+<!--&lt;!&ndash;                        <include>API.Tests.Invoices</include>&ndash;&gt;-->
+<!--                        <include>API.tests.Dogs.DogsTests</include>-->
+<!--                        <include>API.tests.ReqRes.ReqResTests</include>-->
+<!--                        <include>API.tests.Weather.WeatherStationTests</include>-->
+<!--                    </includes>-->
                 </configuration>
             </plugin>
         </plugins>
     </build>
+
+
 
 </project>

@@ -1,6 +1,7 @@
 package SELENIUM.Tests;
 
 import SELENIUM.Pages.*;
+import SELENIUM.Reausable;
 import SELENIUM.Utils.BrowserFactory;
 import SELENIUM.Utils.ReadFromExcel;
 import SELENIUM.Utils.TakeScreenshots;
@@ -22,6 +23,7 @@ public class Base {
     CheckOutInformationPage checkoutInformationPage = PageFactory.initElements(driver, CheckOutInformationPage.class);
     CheckoutOverviewPage checkoutOverviewPage = PageFactory.initElements(driver, CheckoutOverviewPage.class);
     TakeScreenshots takeScreenshots = new TakeScreenshots();
+    Reausable reausable= new Reausable();
 
   ReadFromExcel readFromExcel;
 

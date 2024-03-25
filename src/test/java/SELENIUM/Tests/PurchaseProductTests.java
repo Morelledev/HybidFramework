@@ -71,17 +71,17 @@ public class PurchaseProductTests extends Base {
     }
     @Test(dependsOnMethods = "verifyCheckoutYourInformationPage")
     public void enterFirstNameTests() {
-        checkoutInformationPage.enterFirstName(readFromExcel.firstName);
+        checkoutInformationPage.enterFirstName(reausable.Firstname);
     }
 
     @Test(dependsOnMethods = "verifyCheckoutYourInformationPage")
     public void enterLastNameTests() {
-        checkoutInformationPage.enterLastName(readFromExcel.lastName);
+        checkoutInformationPage.enterLastName(reausable.Lastname);
     }
 
     @Test(dependsOnMethods = "verifyCheckoutYourInformationPage")
     public void enterPostalCodeTests() {
-        checkoutInformationPage.enterPostalCode(readFromExcel.postalCode);
+        checkoutInformationPage.enterPostalCode(reausable.zipCode);
         takeScreenshots.takeSnapShot(driver, "Details");
     }
     @Test(dependsOnMethods = {"enterFirstNameTests","enterLastNameTests","enterPostalCodeTests"})
